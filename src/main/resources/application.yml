@@ -1,0 +1,47 @@
+info:
+  build:
+    version: 0.0.0
+  swagger:
+    title: Bayer iRODS Service api
+    description: API reference for developers
+    license: Apache License Version 2.0
+    licenseUrl: http://www.apache.org/licenses/LICENSE-2.0
+    termsOfServiceUrl: http://url.com
+    contact:
+      name: Dev-Team
+      url: https://dev-website
+      email: dev@nomail.com
+
+springfox:
+  documentation:
+    swagger:
+     v2:
+       path: /help
+
+# Spring properties
+spring:
+  application:
+    name: metadatatool-service  # Service registers under this name
+  profiles:
+    active: dev
+  
+
+endpoints:
+  health:
+    enabled: yes
+  shutdown:
+    enabled: yes
+
+management:
+    context-path: /admin
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          client: DEBUG
+
+# HTTP Server
+server:
+  port: 4444   # HTTP (Tomcat) port
+
