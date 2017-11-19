@@ -1,4 +1,4 @@
-package com.bayer.iRODS.api;
+package com.bayer.irods.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.bayer.iRODS.api.service;
+package com.bayer.irods.api.service;
 
 import java.net.UnknownHostException;
 
