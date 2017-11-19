@@ -1,4 +1,4 @@
-package com.bayer.iRODS.api.controller;
+package com.bayer.irods.api.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.bayer.iRODS.api.service.IpAddressService;
+import com.bayer.irods.api.service.IpAddressService;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

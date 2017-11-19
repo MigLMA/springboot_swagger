@@ -1,4 +1,4 @@
-package com.bayer.iRODS.api;
+package com.bayer.irods.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

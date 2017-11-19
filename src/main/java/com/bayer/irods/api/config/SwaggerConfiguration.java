@@ -1,4 +1,4 @@
-package com.bayer.iRODS.api.config;
+package com.bayer.irods.api.config;
 
 import com.google.common.base.Predicate;
 

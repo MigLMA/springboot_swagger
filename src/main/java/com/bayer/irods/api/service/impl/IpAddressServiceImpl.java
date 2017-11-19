@@ -1,8 +1,8 @@
-package com.bayer.iRODS.api.service.impl;
+package com.bayer.irods.api.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import com.bayer.iRODS.api.service.IpAddressService;
+import com.bayer.irods.api.service.IpAddressService;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -18,9 +18,7 @@ public class IpAddressServiceImpl implements IpAddressService {
 
     public String getServerAddress() throws UnknownHostException {
 
-        final String serverAddress = InetAddress.getLocalHost().getHostAddress();
-
-        return serverAddress;
+        return InetAddress.getLocalHost().getHostAddress();
 
     }
 
